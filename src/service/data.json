@@ -1,0 +1,274 @@
+[
+  {
+    "id": 0,
+    "name": "Vega",
+    "img": "../src/assets/img/vega.jpeg",
+    "gif": "../src/assets/img/vega.gif",
+    "strength": 850,
+    "stamina": 4200,
+    "defense": 280,
+    "speed": 900,
+    "techniques": [
+      "Rolling Crystal Flash",
+      "Flying Barcelona Attack",
+      "Izuna Drop",
+      "Scarlet Terror"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Zangief",
+    "img": "../src/assets/img/zangeif.jpeg",
+    "gif": "../src/assets/img/zangeif.gif",
+    "strength": 950,
+    "stamina": 4800,
+    "defense": 300,
+    "speed": 800,
+    "techniques": [
+      "Spinning Piledriver",
+      "Flying Powerbomb",
+      "Atomic Buster",
+      "Banishing Flat"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sagat",
+    "img": "../src/assets/img/sagat.jpeg",
+    "gif": "../src/assets/img/sagat.webp",
+    "strength": 900,
+    "stamina": 4400,
+    "defense": 250,
+    "speed": 850,
+    "techniques": [
+      "Tiger Shot",
+      "Tiger Uppercut",
+      "Tiger Knee Crush",
+      "Grand Tiger Shot"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ryu",
+    "img": "../src/assets/img/ryu.jpeg",
+    "gif": "../src/assets/img/ryu.gif",
+    "strength": 880,
+    "stamina": 4600,
+    "defense": 270,
+    "speed": 830,
+    "techniques": [
+      "Hadouken",
+      "Shoryuken",
+      "Tatsumaki Senpukyaku",
+      "Metsu Shoryuken"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Guile",
+    "img": "../src/assets/img/guile.jpeg",
+    "gif": "../src/assets/img/guile.gif",
+    "strength": 870,
+    "stamina": 4300,
+    "defense": 290,
+    "speed": 820,
+    "techniques": [
+      "Sonic Boom",
+      "Flash Kick",
+      "Sonic Blade",
+      "Somersault Slash"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ken",
+    "img": "../src/assets/img/ken.jpeg",
+    "gif": "../src/assets/img/ken.gif",
+    "strength": 860,
+    "stamina": 4500,
+    "defense": 260,
+    "speed": 870,
+    "techniques": [
+      "Hadouken",
+      "Shoryuken",
+      "Tatsumaki Senpukyaku",
+      "Shinryuken"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kaaris",
+    "img": "../src/assets/img/kaaris.jpeg",
+    "gif": "../src/assets/img/kaaris.gif",
+    "strength": 920,
+    "stamina": 4100,
+    "defense": 240,
+    "speed": 890,
+    "techniques": [
+      "Tchikita",
+      "Se-Vrak",
+      "Chargé",
+      "Bamboula"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fei Long",
+    "img": "../src/assets/img/feilong.jpeg",
+    "gif": "../src/assets/img/feilong.gif",
+    "strength": 930,
+    "stamina": 4400,
+    "defense": 270,
+    "speed": 840,
+    "techniques": [
+      "Rekka Ken",
+      "Shienkyaku",
+      "Flame Kick",
+      "Shien Renkyaku"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Akuma",
+    "img": "../src/assets/img/akuma.jpeg",
+    "gif": "../src/assets/img/akuma.gif",
+    "strength": 940,
+    "stamina": 4700,
+    "defense": 310,
+    "speed": 810,
+    "techniques": [
+      "Gou Hadouken",
+      "Gou Shoryuken",
+      "Tatsumaki Zanku Kyaku",
+      "Shun Goku Satsu"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Blanka",
+    "img": "../src/assets/img/blanka.jpeg",
+    "gif": "../src/assets/img/blanka.gif",
+    "strength": 920,
+    "stamina": 4200,
+    "defense": 280,
+    "speed": 880,
+    "techniques": [
+      "Electric Thunder",
+      "Rolling Attack",
+      "Vertical Roll",
+      "Shout of Earth"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Dhalsim",
+    "img": "../src/assets/img/dhalsim.jpeg",
+    "gif": "../src/assets/img/dhalsim.gif",
+    "strength": 890,
+    "stamina": 4300,
+    "defense": 250,
+    "speed": 860,
+    "techniques": [
+      "Yoga Fire",
+      "Yoga Flame",
+      "Yoga Teleport",
+      "Yoga Catastrophe"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Edmond",
+    "gif": "../src/assets/img/edmond.gif",
+    "img": "../src/assets/img/edmond.jpeg",
+    "strength": 910,
+    "stamina": 4500,
+    "defense": 260,
+    "speed": 870,
+    "techniques": [
+      "Thrust Strike",
+      "Eclipse Edge",
+      "Thundering Storm",
+      "Tempest Rage"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dee Jay",
+    "img": "../src/assets/img/deejay.jpeg",
+    "gif": "../src/assets/img/deejay.gif",
+    "strength": 880,
+    "stamina": 4600,
+    "defense": 290,
+    "speed": 830,
+    "techniques": [
+      "Air Slasher",
+      "Machinegun Upper",
+      "Max Out",
+      "Sobat Carnival"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Pullun",
+    "img": "../src/assets/img/pullun.jpeg",
+    "gif": "../src/assets/img/pullun.gif",
+    "strength": 930,
+    "stamina": 4400,
+    "defense": 300,
+    "speed": 800,
+    "techniques": [
+      "Flash Kick",
+      "Sonic Boom",
+      "Guile High Kick",
+      "Sonic Hurricane"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bison",
+    "img": "../src/assets/img/bison.jpeg",
+    "gif": "../src/assets/img/bison.gif",
+    "strength": 890,
+    "stamina": 4100,
+    "defense": 240,
+    "speed": 890,
+    "techniques": [
+      "Psycho Crusher",
+      "Head Press",
+      "Scissor Kick",
+      "Devil Reverse"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cammy",
+    "img": "../src/assets/img/cammy.jpeg",
+    "gif": "../src/assets/img/cammy.gif",
+    "strength": 910,
+    "stamina": 4700,
+    "defense": 310,
+    "speed": 810,
+    "techniques": [
+      "Spiral Arrow",
+      "Cannon Spike",
+      "Hooligan Combination",
+      "Cannon Strike"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Adon",
+    "gif": "../src/assets/img/adon.gif",
+    "img": "../src/assets/img/adon.jpeg",
+    "strength": 850,
+    "stamina": 4300,
+    "defense": 270,
+    "speed": 830,
+    "techniques": [
+      "Jaguar Kick",
+      "Jaguar Tooth",
+      "Jaguar Crunch",
+      "Jaguar Avalanche"
+    ]
+  }
+]

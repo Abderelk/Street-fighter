@@ -1,0 +1,115 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 5vw;
+}
+
+.login-container main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+
+.form-container {
+  background-color: rgba(0.9, 0.9, 0.9, 0.6);
+  padding: 40px;
+  border-radius: 30px;
+  color: #FFF;
+}
+
+.form-container p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.form-container h1 {
+  margin: 5px;
+  font-size: 40px;
+}
+
+.input-group {
+  margin: 20px;
+}
+
+.input-group label {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+.input-group input {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  height: 4vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px;
+}
+
+.error {
+  color: rgb(255, 72, 0);
+  margin-top: 5px;
+}
+
+/* header */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: linear-gradient(to bottom, rgba(255, 72, 0, 0.8), rgba(255, 72, 0, 0));
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: rgb(255, 72, 0);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}

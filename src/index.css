@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "badaboom-pro", sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+body {
+  background-color: #111;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  color: #FFF;
+}
+
+#logo {
+  width: 8vw;
+}

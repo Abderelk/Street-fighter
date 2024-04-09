@@ -1,0 +1,60 @@
+.ajout-personnage-container {
+    height: 92vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.ajout-personnage-container .backgroundImage {
+    opacity: 0.2;
+}
+
+.ajoutPersonnage {
+    width: 25vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(255, 72, 0);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 20vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 72, 0);
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(190, 54, 0);
+}
