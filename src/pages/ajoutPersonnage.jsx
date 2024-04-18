@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import '../assets/css/ajoutPersonnage.css';
-
+import "./../../public/assets/css/ajoutPersonnage.css"
 const AjoutPersonnage = () => {
     const [name, setName] = useState('');
     const [gif, setGif] = useState('');
@@ -48,10 +47,10 @@ const AjoutPersonnage = () => {
             <audio id="backgroundMusic" autoPlay loop>
                 <source src="src/assets/audio/ajoutPersonnage.mp3" type="audio/mpeg" />
             </audio>
-            <img className="backgroundImage" src="../src/assets/img/imageDeFond.jpeg" alt="fond" />
+            <img className="backgroundImage" src="/assets/img/imageDeFond.jpeg" alt="fond" />
             <header>
                 <Link to="/home">
-                    <img id="logo" src="../src/assets/img/logo.png" alt="logo street fighter" />
+                    <img id="logo" src="/assets/img/logo.png" alt="logo street fighter" />
                 </Link>
                 <nav>
                     <ul>

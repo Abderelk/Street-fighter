@@ -261,7 +261,7 @@ h3 {
 }
 
 .pauseMenu .banniere {
-    background-image: url(../src/assets/img/banniere.png);
+    background-image: url(/assets/img/banniere.png);
     background-size: contain;
     background-position: center;
     flex-direction: column;

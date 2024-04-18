@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import sha256 from 'crypto-js/sha256';
-import '../assets/css/login.css';
+import "./../../public/assets/css/login.css"
 
 const Login = ({ setIsLoggedIn }) => {
     const [username, setUsername] = useState('');
@@ -44,7 +44,7 @@ const Login = ({ setIsLoggedIn }) => {
                 <source src="src/assets/audio/acceuil.mp3" type="audio/mpeg" />
             </audio>
             <header>
-                <img id="logo" src="../src/assets/img/logo.png" alt="logo street fighter" />
+                <img id="logo" src="/assets/img/logo.png" alt="logo street fighter" />
                 <nav>
                     <ul>
                         <li><Link to={`/`}>Connexion</Link></li>
@@ -53,7 +53,7 @@ const Login = ({ setIsLoggedIn }) => {
                 </nav>
             </header>
             <main>
-                <img className='backgroundImage' src="../src/assets/img/imageDeFond.jpeg" alt="fond" />
+                <img className='backgroundImage' src="/assets/img/imageDeFond.jpeg" alt="fond" />
                 <div className="form-container">
                     <form onSubmit={handleLogin}>
                         <h1>Connexion</h1>

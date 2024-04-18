@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/fight.css";
+import "./../../public/assets/css/fight.css";
 
 const CharacterCard = ({ character, stamina, calculateHealthPercentage, isRandomCharacter, className, classNameb, damage }) => {
 

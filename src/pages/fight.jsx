@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import * as ACTION from "../redux/article";
 import CharacterCard from "../components/characterCard";
 import { useNavigate } from "react-router-dom";
-import "../assets/css/fight.css";
+import "../../public/assets/css/fight.css"
 
 function Fight() {
     const location = useSelector((state) => state.article.data);
@@ -56,7 +56,7 @@ function Fight() {
         const randomIdx = Math.floor(Math.random() * 16);
         setRandomIndex(randomIdx);
         const randomArenaIdx = Math.floor(Math.random() * 5 + 1);
-        setArenaImage(`../src/assets/img/arene${randomArenaIdx}.gif`);
+        setArenaImage(`/assets/img/arene${randomArenaIdx}.gif`);
 
     }, []);
 
@@ -258,7 +258,7 @@ function Fight() {
         setIsGameOver(false);
         setRandomIndex(Math.floor(Math.random() * 16));
         const randomArenaIdx = Math.floor(Math.random() * 5 + 1);
-        setArenaImage(`../src/assets/img/arene${randomArenaIdx}.gif`);
+        setArenaImage(`/assets/img/arene${randomArenaIdx}.gif`);
         setSelectedCharacterStamina(null);
         setRandomCharacterStamina(null);
         setAttackMessage("");
@@ -296,7 +296,7 @@ function Fight() {
             {/* header */}
             <header>
                 <Link to="/home">
-                    <img id="logo" src="../src/assets/img/logo.png" alt="logo street fighter" />
+                    <img id="logo" src="/assets/img/logo.png" alt="logo street fighter" />
                 </Link>
                 <nav>
                     <ul>
@@ -339,7 +339,7 @@ function Fight() {
                                 <div
                                     className="banniere"
                                     style={{
-                                        backgroundImage: `url(../src/assets/img/banniere.png)`,
+                                        backgroundImage: `url(/assets/img/banniere.png)`,
                                     }}
                                 >
                                     {!attackMessage ? <h3>{characterFirst}</h3> : <h3>{attackMessage}</h3>}
@@ -377,7 +377,7 @@ function Fight() {
             {
                 isGameOver && (
                     <div className="pageFight gameOver">
-                        <img className="backgroundImage" src="../src/assets/img/imageDeFond.jpeg" alt="fond" />
+                        <img className="backgroundImage" src="/assets/img/imageDeFond.jpeg" alt="fond" />
                         <div className="fight">
                             <div className="winner">
                                 <div >
@@ -394,7 +394,7 @@ function Fight() {
                                 <div
                                     className="banniere"
                                     style={{
-                                        backgroundImage: `url(../src/assets/img/banniere.png)`,
+                                        backgroundImage: `url(/assets/img/banniere.png)`,
                                     }}
                                 >
                                     <h3> {winner.name} a remporté la victoire !</h3>

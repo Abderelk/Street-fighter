@@ -4,7 +4,7 @@ import Data from "../service/data.json";
 import { Link } from "react-router-dom";
 import AjoutPersonnage from "./AjoutPersonnage";
 import * as ACTION from "../redux/article";
-import "../assets/css/home.css"
+import "../../public/assets/css/home.css"
 import { faCircleInfo, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -54,9 +54,9 @@ function Home() {
                 <source src="src/assets/audio/home.mp3" type="audio/mpeg" />
             </audio>
             {/* header */}
-            <img className="backgroundImage" src="../src/assets/img/imageDeFond.jpeg" alt="fond" />
+            <img className="backgroundImage" src="/assets/img/imageDeFond.jpeg" alt="fond" />
             <header>
-                <img id="logo" src="../src/assets/img/logo.png" alt="logo street fighter" />
+                <img id="logo" src="/assets/img/logo.png" alt="logo street fighter" />
 
                 <nav>
                     <ul>
