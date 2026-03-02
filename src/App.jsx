@@ -2,10 +2,10 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import Home from './pages/Home';
-import Login from './pages/login';
-import Inscription from './pages/inscription';
-import AuthMiddleware from './components/AuthMiddleware';
-import Fight from './pages/fight';
+import Login from './pages/Login';
+import Inscription from './pages/Inscription';
+import AuthMiddleware from './components/authMiddleware';
+import Fight from './pages/Fight';
 import AjoutPersonnage from './pages/AjoutPersonnage';
 
 function App() {

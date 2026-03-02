@@ -197,7 +197,6 @@ function Fight() {
         navigate("/")
     };
     // fonction pour gérer les attaques du joueur
-
     const handleAttack = (techniqueIndex) => {
         if (isPlayerTurn && selectedCharacter && randomCharacter) {
             const techniqueUsed = selectedCharacter.techniques[techniqueIndex];
